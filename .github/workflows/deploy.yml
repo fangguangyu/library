@@ -30,7 +30,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Build
-        run: pnpm install && npm run build
+        run: pnpm install && pnpm run build
 
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
