@@ -37,7 +37,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           # GitHub 密钥
-          # ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           # 指定仓库
           REPOSITORY_NAME: fangguangyu/library
           # GitHub Pages 读取的分支
